@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.test.demo.dao.mapper.TbAccountTokenRecordMapper">
+  <resultMap id="BaseResultMap" type="com.test.demo.model.pojo.TbAccountTokenRecord">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="account_code" jdbcType="VARCHAR" property="accountCode" />
+    <result column="token" jdbcType="VARCHAR" property="token" />
+    <result column="client_time" jdbcType="VARCHAR" property="clientTime" />
+    <result column="create_time" jdbcType="BIGINT" property="createTime" />
+    <result column="update_time" jdbcType="BIGINT" property="updateTime" />
+  </resultMap>
+
+</mapper>
